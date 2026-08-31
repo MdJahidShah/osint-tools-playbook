@@ -12,7 +12,7 @@ A collaborative, open-source repository and cheat sheet featuring the **best fre
 ---
 
 ## 📑 Table of Contents
-- [Overview](#-overview)
+- [Overview](#-overview)a
 - [Featured Tools & Quickstarts](#-featured-tools--quickstarts)
   - [1. Maltego](#1-maltego---visual-link-analysis)
   - [2. theHarvester](#2-theharvester---emails-subdomains--ips)
@@ -80,7 +80,7 @@ python3 theHarvester.py -d example.com -b all -f osint_report
 ### 3. OWASP Amass - In-Depth Attack Surface Mapping
 **Purpose:** Advanced DNS enumeration, network mapping, and infrastructure discovery using active and passive data sources.
 
-📦 Installation
+#### 📦 Installation
 
 #### Using Go
 ```bash
@@ -90,7 +90,7 @@ go install -v [github.com/owasp-amass/amass/v4/...@master](https://github.com/ow
 sudo snap install amass
 ```
 
-💻 Common Commands
+#### 💻 Common Commands
 Non-intrusive passive subdomain enumeration:
 ```bash
 amass enum -passive -d example.com
@@ -115,7 +115,7 @@ pip install sherlock-project
 ```
 
 #### 💻 Common Commands
-Search for a specific handle:
+**Search for a specific handle:**
 ```bash
 sherlock username_to_search
 ```
@@ -127,6 +127,7 @@ sherlock user1 user2 --only-found --folderoutput ./sherlock_results/
 
 ### 5. Recon-ng - Modular Reconnaissance Framework
 **Purpose:** A full-featured, Metasploit-style CLI framework for automated intelligence gathering with database and API integration.
+
 #### 📦 Installation
 ```bash
 git clone [https://github.com/lanmaster53/recon-ng.git](https://github.com/lanmaster53/recon-ng.git)
@@ -150,6 +151,7 @@ pip install -r REQUIREMENTS
 
 ### 6. AI Recon Agents & Automation
 **Purpose:** Running automated CLI scripts and passing raw reconnaissance data to LLMs for summarizing, noise reduction, and threat dossier formatting.
+
 #### ⚡ Sample Automation Pipeline
 ```bash
 import subprocess
