@@ -12,7 +12,7 @@ A collaborative, open-source repository and cheat sheet featuring the **best fre
 ---
 
 ## 📑 Table of Contents
-- [Overview](#-overview)a
+- [Overview](#-overview)
 - [Featured Tools & Quickstarts](#-featured-tools--quickstarts)
   - [1. Maltego](#1-maltego---visual-link-analysis)
   - [2. theHarvester](#2-theharvester---emails-subdomains--ips)
